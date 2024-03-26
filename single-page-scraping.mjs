@@ -51,6 +51,7 @@ async function main() {
         xlsx.writeFile(wb, 'Books.xlsx');
     }
     await browser.close();
+    console.log("Data Scrape Done!");
 }
 
 main();
